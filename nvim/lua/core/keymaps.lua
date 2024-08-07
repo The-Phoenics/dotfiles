@@ -17,6 +17,6 @@ vim.wo.relativenumber = true
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 
 -- toggle terminal
-vim.keymap.set('n', '<leader>t', 'ToggleTerm')
+vim.keymap.set('n', '<leader>t', ':ToggleTerm<CR>')
 
 
