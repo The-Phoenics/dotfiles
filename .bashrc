@@ -127,6 +127,9 @@ alias la='eza -la --icons'
 alias n='nvim .'
 alias nc='nvim ~/.config/nvim'
 alias brc='nvim ~/.bashrc'
+alias c='clear'
+alias x='exit'
+
 
 alias go='/usr/local/go/bin/go'
 . "$HOME/.cargo/env"
