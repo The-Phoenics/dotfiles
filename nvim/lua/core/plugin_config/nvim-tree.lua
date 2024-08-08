@@ -1,5 +1,5 @@
---vim.go.loaded_netw = 1
---vim.g.loaded_netrePlugin = 1
+vim.go.loaded_netw = 1
+vim.g.loaded_netrePlugin = 1
 
 require("nvim-tree").setup()
 
