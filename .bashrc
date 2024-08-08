@@ -131,6 +131,8 @@ alias c='clear'
 alias x='exit'
 
 
-alias go='/usr/local/go/bin/go'
 . "$HOME/.cargo/env"
 
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/home/phoenix/.local/bin
+eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/robbyrussell.omp.json)"
