@@ -114,12 +114,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-
-
 # my aliases
 alias l='eza --icons'
 alias ls='eza -l --icons'
@@ -131,8 +125,4 @@ alias c='clear'
 alias x='exit'
 
 
-. "$HOME/.cargo/env"
-
-export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:/home/phoenix/.local/bin
 eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/robbyrussell.omp.json)"
