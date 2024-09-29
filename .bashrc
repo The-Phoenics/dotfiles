@@ -123,6 +123,25 @@ alias nc='nvim ~/.config/nvim'
 alias brc='nvim ~/.bashrc'
 alias c='clear'
 alias x='exit'
+alias sp='sudo pacman -S'
+alias p='pnpm'
+alias evalssh='eval "$(ssh-agent -s)" && ssh-add ~/.ssh/phoenics && clear'
+alias sctl='sudo systemctl'
+alias nh='nvim ~/.config/hyper'
 
-
+export PATH=$PATH:~/.local/bin
 eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/robbyrussell.omp.json)"
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin

@@ -30,7 +30,6 @@ return {
         "rust_analyzer",
         "gopls",
         "clangd",
-        "tsserver",
         "pyright"
       },
       handlers = {
