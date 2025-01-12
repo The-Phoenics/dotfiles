@@ -1,9 +1,9 @@
 -- clear searches
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 
-vim.keymap.set('n', '<leader>t', ':ToggleTerm<CR>')
+-- vim.keymap.set('n', '<leader>t', ':ToggleTerm<CR>')
 vim.keymap.set('n', '<C-t>', ':ToggleTerm<CR>')
-vim.keymap.set('t', '<leader>t', '<C-\\><C-n>:ToggleTerm<CR>')
+-- vim.keymap.set('t', '<leader>t', '<C-\\><C-n>:ToggleTerm<CR>')
 vim.keymap.set('t', '<C-t>', '<C-\\><C-n>:ToggleTerm<CR>')
 
 vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>') -- nvim-tree
