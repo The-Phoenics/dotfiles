@@ -8,6 +8,7 @@ require("phoenics.plugins.lualine")
 require("phoenics.plugins.toggle_terminal")
 require("phoenics.plugins.nnn")
 require("phoenics.plugins.presence")
+require("phoenics.plugins.alpha")
 
 return {
   { 'nvim-lua/plenary.nvim' },
