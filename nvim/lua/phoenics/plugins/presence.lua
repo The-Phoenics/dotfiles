@@ -16,6 +16,7 @@ return {
                 buttons             = true, -- Show buttons in the presence status
                 file_assets         = {}, -- Custom filetype icons
                 show_time           = true, -- Show elapsed time since editing started
+                workspace_text      = "Playing Neovim!",            -- Format string rendered when in a git repository (either string or function(project_name: string|nil, filename: string): string)
             })
         end,
     },

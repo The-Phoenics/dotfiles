@@ -8,3 +8,8 @@ spikespaz.vscode-smoothtype (smooth cursor) \
 be5invis.vscode-custom-css (for custom css) \
 emmanuelbeziat.vscode-great-icons (icons) \
 MaoSantaella.night-wolf (theme)
+
+--- 
+
+### Neovide
+Leader + tt -> change theme

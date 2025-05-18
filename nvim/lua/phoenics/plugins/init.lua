@@ -1,4 +1,6 @@
-require("phoenics.plugins.theme")
+require("lazy").setup({
+  { import = "plugins" },
+})
 require("phoenics.plugins.telescope")
 require("phoenics.plugins.treesitter")
 require("phoenics.plugins.nvim_tree")
@@ -10,6 +12,7 @@ require("phoenics.plugins.nnn")
 require("phoenics.plugins.presence")
 require("phoenics.plugins.alpha")
 require("phoenics.plugins.bufferline")
+require("phoenics.plugins.autopairs")
 
 return {
   { 'nvim-lua/plenary.nvim' },
